@@ -203,6 +203,9 @@ public class RMIClient {
 }
 
 -------------------------------------------------------- Step 6: Compile and Run the Application ---------------------------------------------------------------------------
+
+note : compile and run this practical  in eclipse by right click on RMIServer.java and select option run-as-java and after that open new comsole and right click on RMIClient.java and select option run-as-java 
+
 1) Compile all files: 
 code : javac *.java  or javac package_name\*.java
 
@@ -211,6 +214,7 @@ code : java RMIServer
 
 3) Run the Client (in a separate terminal): 
 code : java RMIClient
+
 
 -----------------------------------------------------------------------step 7 : expected output --------------------------------------------------------------------------------
 
