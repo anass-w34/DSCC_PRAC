@@ -2,7 +2,7 @@ Code Implementation
 *********************************************************************************************************************************
 
 1) create a project name DSCC_1
-1.1) create a package name remote_object_communication_jdbc_rmi
+ 1.1) create a package name remote_object_communication_jdbc_rmi
 
 ********************************************************************************************************************************* 
 
@@ -11,14 +11,21 @@ Code Implementation
 
 https://dev.mysql.com/downloads/connector/j/
 
+ platform independent download tar file
 
 youtube link : https://youtu.be/lNeZe-vIHwU?feature=shared 
 
+bulid path m jaake add library  there is class path there add
+ then add musql connector 
+ 
 
  -------------------------------Step 1 - Setting Up MySQL Databases and Tables --------------------------------------------------
 
 1) Create the Library Database and Book Table:
+open mysql then run this
+
 sql command : 
+ 
 CREATE DATABASE Library;
 
 USE Library;
@@ -115,7 +122,7 @@ public class LibraryServiceImpl extends UnicastRemoteObject implements LibrarySe
 }
 
 ************************************************************************************************************************************************
-[ ElectricBillServiceImpl.java ] 
+[ ElectricBillServiceImpl.java ]     add password
 ________________________________________________________________________________________________________________________________________________________
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
