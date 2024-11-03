@@ -164,7 +164,7 @@ public class Client {
 How to Run the Application 
 
 1) Start the Calculator Server: 
-Open a terminal, navigate to the directory containing the CalculatorServer.java, and run
+Open a terminal, navigate to the directory containing the CalculatorServer.java, and run open till src
 code : javac CalculatorServer.java   OR javac packagename\classname.java 
 code : java CalculatorServer            java packagename.classname 
 
