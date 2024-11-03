@@ -168,16 +168,26 @@ Open a terminal, navigate to the directory containing the CalculatorServer.java,
 code : javac CalculatorServer.java   OR javac packagename\classname.java 
 code : java CalculatorServer            java packagename.classname 
 
+    D:\eclipse\DSCC_1\src>javac remote_procedure_call/CalculatorServer.java
+
+D:\eclipse\DSCC_1\src>java remote_procedure_call/CalculatorServer.java
+Calculator Server is running on port 9876
+    
+
 2) Start the Date Time Server:
 open another terminal, navigate to the directory containing DateTimeServer.java, and run: 
 code : javac DateTimeServer.java
 code : java DateTimeServer
 
+D:\eclipse\DSCC_1\src>javac remote_procedure_call/DateTimeServer.java
+
+D:\eclipse\DSCC_1\src>java remote_procedure_call/DateTimeServer.java
+    
 3) Run the Client:
 Open a third terminal for the client application.
 Compile and run the client:
-code : javac Client.java
-code : java Client
+code : javac /Client.java
+code : java /Client
 
 4) Test the Application:
 In the client console, specify which server to connect to (calculator or datetime).
@@ -185,7 +195,27 @@ For the calculator server, you can enter commands like ADD 5 10, SUB 10 4, MUL 3
 For the date time server, you can enter DATE or TIME.
 
 
+D:\eclipse\DSCC_1\src>java remote_procedure_call/Client.java
+Enter server type (calculator/datetime):
+calculator
+Enter request:
+add 5 10
+Server response: Result: 15.0
+Enter request:
+mul 51 0
 
+    
+D:\eclipse\DSCC_1\src>java remote_procedure_call/Client.java
+Enter server type (calculator/datetime):
+datetime
+Enter request:
+date
+Server response: 2024-11-03
+Enter request:
+time
+Server response: 16:38:46
+
+    
 
 
 
