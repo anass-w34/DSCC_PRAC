@@ -174,15 +174,31 @@ class IncomingMessageHandler implements Runnable {
 *********************************************************************************************************************
 Running the Application
 ________________________________________
-1) Start the Server:
+1) Start the Server: 
+    do this in cmd paste the correct path
+    path properties m jaake lena h 
+    full path jaha java file store h waha tk 
+   then open cmd in that
+    
  Run ChatServer first by executing:
 code : javac ChatServer.java ClientHandler.java
 code : java ChatServer
 
-2) Start the Clients:
+    D:\eclipse\DSCC_1\src>javac dscc_remote_process/ChatServer.java dscc_remote_process/ClientHandler.java
+
+D:\eclipse\DSCC_1\src>java dscc_remote_process/ChatServer
+
+2) Start the Clients: (client k liye 2 3 terminal kholne h)
 Open multiple terminals and run ChatClient in each , simulating different users:
 code : javac ChatClient.java
 code : java ChatClient
+
+    
+D:\eclipse\DSCC_1\src>javac dscc_remote_process/ChatClient.java
+
+D:\eclipse\DSCC_1\src>java dscc_remote_process/ChatClient
+
+    
 
 *******************************************************************************************************************
 1) Server Error: Address already in use: bind
