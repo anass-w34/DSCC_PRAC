@@ -1,8 +1,9 @@
-Code Implementation
-*********************************************************************************************************************************
+Code Implementation  (error dikha toh ctrl shift o )
+***************************** ****************************************************************************************************
 
-1) create a project name DSCC_1
+1) create a java project name DSCC_1
 1.1) create a package name dscc_remote_process
+    create class ChatServer
 
 
 [ChatServer.java]
@@ -49,7 +50,8 @@ public class ChatServer {
 }
 
 *******************************************************************************************************************************************
-[ClientHandler.java]
+create class ClientHandler
+    [ClientHandler.java]
 _________________________________________________________
 class ClientHandler implements Runnable {
     private Socket socket;
